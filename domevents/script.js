@@ -26,11 +26,22 @@ function addListAfterKeypress(event) {
 	}
 }
 
+function toggleList(i){
+	li[i].addEventListener("click", function(){
+		li[i].classList.toggle("done");
+	})
+}
+
 button.addEventListener("click", addListAfterClick);
 
 input.addEventListener("keypress", addListAfterKeypress);
 
-li[0].addEventListener("click", function(){
-	li[0].classList.toggle("done");
-})
+toggleList(0);
+toggleList(1);
+toggleList(2);
+toggleList(3);
+toggleList(4);
+toggleList(5);
+
+
 
