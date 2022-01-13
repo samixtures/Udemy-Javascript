@@ -32,6 +32,12 @@ function toggleList(i){
 	})
 }
 
+function removeItem(i){
+	li[i].addEventListener("click", function(){
+		li[i].remove();
+	})
+}
+
 button.addEventListener("click", addListAfterClick);
 
 input.addEventListener("keypress", addListAfterKeypress);
@@ -42,6 +48,8 @@ toggleList(2);
 toggleList(3);
 toggleList(4);
 toggleList(5);
+
+
 
 
 
