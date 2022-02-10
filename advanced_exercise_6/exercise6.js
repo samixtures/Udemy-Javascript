@@ -19,4 +19,18 @@ object1.a = 4;
 // create a cow that accepts a name, type and color and has a sound method that moo's her name, type and color. 
 
 class Animal {
+    constructor(name, type, color){
+        this.name = name;
+        this.type = type;
+        this.color = color;
+    }
 }
+class Mammal extends Animal {
+    constructor(name, type, color) {
+        super(name, type, color)
+    }
+    sound() {
+        console.log(`Moo I'm a ${this.name}, I'm a ${this.type}, and my color is ${this.color}.`);
+    }
+}
+const cow = new Mammal("Jhonny", "cow", "green");
