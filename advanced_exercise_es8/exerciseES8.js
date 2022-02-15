@@ -52,6 +52,21 @@ let obj = {
 // to this:
 'my name is Rudolf the raindeer'
 
+const newObj = Object.entries(obj).map(value => {
+  return value[1];
+}) //This makes an array that has only the value
+
+Object.entries(obj).map(value => value.join(" ")).join(' ')
+//This is the answer ^. I'm not super familiar with the join function
+
 //Looks like we have to remove the attribute names and add the attribute values together.
+
+//Object.entries(obj) converts an object to an array with multiple arrays in it. 
+//So obj becomes [[my, name], [is, Rudolf], [the, raindeer]]
+//We the use the map method which creates a new array that with the function we use 
+//Object.entries(obj).map((value =>){
+//   return value[1]
+//}
+//Then we have to use the map and join function (ok I looked at the solution)
 
 //
