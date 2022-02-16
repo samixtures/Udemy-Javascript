@@ -13,7 +13,11 @@ console.log(greeting.flat(2));
 
 
 //#3 Turn the greeting array above into a string: 'Hello young grasshopper you are learning fast!'
-
+//Gotta use flatMap to make a new array that is flattened out and has all of the values added together
+//by the .join() method
+//ANSWER ^:
+console.log(greeting.flatMap(x => x.join(' ').join(' ')));
+//Honestly I don't really get this^
 
 
 //#4 Turn the trapped 3 number into: [3]
