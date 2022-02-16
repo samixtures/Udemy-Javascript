@@ -22,7 +22,7 @@ console.log(greeting.flatMap(x => x.join(' ').join(' ')));
 
 //#4 Turn the trapped 3 number into: [3]
 const trapped = [[[[[[[[[[[[[[[[[[[[[[[[[[3]]]]]]]]]]]]]]]]]]]]]]]]]];
-
+console.log(trapped.flat(Infinity));
 
 
 //#5 Clean up this email to have no whitespaces. Make the answer be in a single line (return a new string):
