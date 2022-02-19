@@ -48,8 +48,21 @@ function biggestNumberInArray2(arr) {
   return max;
 }
 
-function biggestNumberInArray3(arr) {
+//the one below works with array2 because we set max = 0. Doesn't work if there are all negative numbers in the array
+// function biggestNumberInArray2(arr) {
+//   let max = 0;
+//   for(item of arr){
+//     if (item > max) max = item;
+//   }
+//   return max;
+// }
 
+function biggestNumberInArray3(arr) {
+  let max = 0;
+  arr.forEach(item => {
+    if (item > max) max = item;
+  })
+  return max;
 }
 
 
