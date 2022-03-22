@@ -1,6 +1,9 @@
 /* Selector {
     Property: value;
 } */
+* {
+  text-align: right;
+}
 
 body {
   background-image: url(udemy_background_pic.jpg);
@@ -34,4 +37,11 @@ li {
 
 .active {
   color: orange;
+}
+
+#div1 {
+  background: rgba(0, 0, 255, 0.2);
+}
+#div2 {
+  background: rgba(255, 0, 0, 0.2);
 }
