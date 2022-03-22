@@ -7,7 +7,8 @@ body {
   background-size: cover;
 }
 
-h2 {
+h2,
+p {
   color: rgba(81, 152, 54, 0.5);
   text-align: center;
   border: 5px groove #317617;
@@ -25,4 +26,12 @@ p {
 li {
   list-style: none;
   display: inline-block;
+}
+
+.webText {
+  border: 5px dashed red;
+}
+
+.active {
+  color: orange;
 }
