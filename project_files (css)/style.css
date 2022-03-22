@@ -2,8 +2,16 @@
     Property: value;
 } */
 
+body {
+  background-image: url(udemy_background_pic.jpg);
+  background-size: cover;
+}
+
 h2 {
   color: red;
+  text-align: center;
+  border: 5px groove purple;
+  cursor: pointer;
 }
 
 p {
@@ -12,4 +20,8 @@ p {
 
 p {
   color: green;
+}
+
+li {
+  list-style: none;
 }
