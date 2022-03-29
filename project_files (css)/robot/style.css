@@ -12,7 +12,7 @@ h1 {
 .right_arm,
 .left_leg,
 .right_leg {
-  background-color: #5f93e8;
+  background-color: #68c86d;
 }
 
 .head {
@@ -50,8 +50,16 @@ h1 {
   margin-right: 10px;
 }
 
+.left_arm:hover {
+  transform: rotate(40deg);
+}
+
 .right_arm {
   margin-left: 10px;
+}
+
+.right_arm:hover {
+  transform: scale(1.3);
 }
 
 .torso {
@@ -89,6 +97,10 @@ h1 {
 
 .right_leg {
   margin-left: 30px;
+}
+
+.right_leg:hover {
+  transform: rotate(-60deg);
 }
 
 .left_eye,
