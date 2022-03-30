@@ -28,7 +28,7 @@ h1 {
 
 .head:hover {
   width: 300px;
-  transition: 1s ease-in-out;
+  transition: 0.5s ease-in-out;
 }
 
 .upper_body {
@@ -100,6 +100,7 @@ h1 {
 }
 
 .right_leg:hover {
+  transition: 0.5s;
   transform: rotate(-60deg);
 }
 
