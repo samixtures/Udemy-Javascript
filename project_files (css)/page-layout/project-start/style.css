@@ -11,16 +11,14 @@ body {
     transition: all 0.3s linear;
 }
 
-/* .container {
-    display: grid;
-} */
-
 .zone:hover {
     -webkit-box-shadow:rgba(0,0,0,0.8) 0px 5px 15px, inset rgba(0,0,0,0.15) 0px -10px 20px;
     -moz-box-shadow:rgba(0,0,0,0.8) 0px 5px 15px, inset rgba(0,0,0,0.15) 0px -10px 20px;
     -o-box-shadow:rgba(0,0,0,0.8) 0px 5px 15px, inset rgba(0,0,0,0.15) 0px -10px 20px;
     box-shadow:rgba(0,0,0,0.8) 0px 5px 15px, inset rgba(0,0,0,0.15) 0px -10px 20px;
 }
+
+/* NAVBAR */
 
 .main-nav {
     display: flex;
@@ -44,6 +42,15 @@ a {
 }
 .push {
     margin-left: auto;
+}
+
+/* COVER */
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 50vh; /* viewport height: looks at view of webpage and does % of viewport */
 }
 
 /*https://paulund.co.uk/how-to-create-shiny-css-buttons*/
