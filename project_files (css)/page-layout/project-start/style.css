@@ -12,9 +12,6 @@ body {
 }
 
 .zone:hover {
-    -webkit-box-shadow:rgba(0,0,0,0.8) 0px 5px 15px, inset rgba(0,0,0,0.15) 0px -10px 20px;
-    -moz-box-shadow:rgba(0,0,0,0.8) 0px 5px 15px, inset rgba(0,0,0,0.15) 0px -10px 20px;
-    -o-box-shadow:rgba(0,0,0,0.8) 0px 5px 15px, inset rgba(0,0,0,0.15) 0px -10px 20px;
     box-shadow:rgba(0,0,0,0.8) 0px 5px 15px, inset rgba(0,0,0,0.15) 0px -10px 20px;
 }
 
@@ -44,6 +41,12 @@ a {
     margin-left: auto;
 }
 
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
 /* COVER */
 
 .container {
@@ -53,7 +56,12 @@ a {
     height: 50vh; /* viewport height: looks at view of webpage and does % of viewport */
 }
 
+.cover {
+    height: 20rem;
+}
+
 /* GRID PROJECTS */
+
 .grid-wrapper {
     display: grid;
     grid: 20px;
@@ -68,6 +76,9 @@ a {
     background-color: grey;
     padding: 130px;
     margin: 20px;
+}
+.box:hover {
+    transform: rotate(-7deg);
 }
 
 footer {
